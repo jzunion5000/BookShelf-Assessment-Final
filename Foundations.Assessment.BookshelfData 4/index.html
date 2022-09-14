@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <input placeholder="Search">
+      <button class="searchBtn">Search</button>
+      <select class="sortBy">
+        <option value="titleaz">Title A-Z</option>
+        <option value="titleza">Title Z-A</option>
+      </select>
+      </select>
+    </nav>
+    <div>
+      <input placeholder = "Author">
+      <input placeholder = "Language">
+      <input placeholder = "Subject">
+      <input placeholder = "Title">
+      <button class="addBtn">Add Book</button>
+    </div>
+    <main id="app">
+      <ul class="books"></ul>
+    </main>
+
+    <script src="js/book-data.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/bookshelf.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
