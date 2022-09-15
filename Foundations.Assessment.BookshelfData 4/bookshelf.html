@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bookshelf.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="home" class="active">Home</a>
+        <a href="books">Books</a>
+        <a href="contact">Contact</a>
+        <a href="about">About</a>
+    </div>
+    <div class="container">
+        <h1 class="display">
+            BookShelf
+        </h1>
+        <form class="book-form">
+            <div class="form-group">
+                <input type="text" placeholder="Author" class="author">
+                <input type="text" placeholder="Language" class="language">
+                <input type="text" placeholder="Subject" class="subject">
+                <input type="text" placeholder="Title" class="title">
+                <input type="submit" value="Add Book">
+            </div>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Language</th>
+                    <th>Subject</th>
+                    <th>Title</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="book-list"></tbody>
+        </table>
+    </div>
+    <script src="bookshelf.js"></script>
+</body>
+
+</html>
